@@ -1,5 +1,5 @@
+i = 1;
 main(int c, char**a) {
-    int i = 1;
     int s = atoi(a[i++]);
 
     while(i<c) {
