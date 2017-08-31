@@ -1,5 +1,4 @@
-i = 1;
-s;
+s, i = 1;
 #define f atoi(a[i++]);
 #define b(c,o) case 40+c: s = s o f break;
 main(c, a)char**a; {
