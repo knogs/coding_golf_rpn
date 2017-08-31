@@ -1,6 +1,7 @@
 i = 1;
+s;
 main(int c, char**a) {
-    int s = atoi(a[i++]);
+    s = atoi(a[i++]);
 
     while(i<c) {
         int x = atoi(a[i++]);
