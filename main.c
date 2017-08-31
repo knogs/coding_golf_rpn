@@ -5,14 +5,13 @@ s;
 main(int c, char**a) {
     s = f
 
-    while(i<c) {
+    for(;i<c;i++) {
         switch (*a[i+1]) {
             b(3, +=)
             b(5, -=)
             b(2, *=)
             b(7, /=)
         }
-        i++;
     }
 
     printf("%d", s);
