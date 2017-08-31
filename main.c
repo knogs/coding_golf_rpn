@@ -1,7 +1,7 @@
 i = 1;
 s;
 #define f atoi(a[i++]);
-#define b(c,o) case c: s o f; break;
+#define b(c,o) case c: s o f break;
 main(int c, char**a) {
     s = f
 
