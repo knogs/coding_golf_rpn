@@ -1,11 +1,12 @@
 i = 1;
 s;
 x;
+#define f atoi(a[i++]);
 main(int c, char**a) {
-    s = atoi(a[i++]);
+    s = f
 
     while(i<c) {
-        x = atoi(a[i++]);
+        x = f
 
         switch (*a[i++]) {
             case '+': s += x; break;
