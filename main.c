@@ -15,5 +15,5 @@ main(int c, char**a) {
         i++;
     }
 
-    printf("%d\n", s);
+    printf("%d", s);
 }
