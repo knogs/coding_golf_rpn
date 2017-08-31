@@ -2,7 +2,7 @@ i = 1;
 s;
 #define f atoi(a[i++]);
 #define b(c,o) case 40+c: s o f break;
-main(int c, char**a) {
+main(c, a)char**a; {
     s = f
 
     for(;i<c;i++) {
