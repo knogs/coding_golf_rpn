@@ -2,6 +2,7 @@ i = 1;
 s;
 x;
 #define f atoi(a[i++]);
+#define b(c,o) case c: s o x; break;
 main(int c, char**a) {
     s = f
 
@@ -9,10 +10,10 @@ main(int c, char**a) {
         x = f
 
         switch (*a[i++]) {
-            case '+': s += x; break;
-            case '-': s -= x; break;
-            case '*': s *= x; break;
-            case '/': s /= x; break;
+            b('+', +=)
+            b('-', -=)
+            b('*', *=)
+            b('/', /=)
         }
     }
 
