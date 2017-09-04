@@ -1,2 +1,2 @@
 all:
-	gcc -w --std=c11 -o main main.c
+	gcc -g -w --std=c11 -o main main.c
