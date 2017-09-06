@@ -1,5 +1,5 @@
 #define N atoi(*(++v))
-#define F(o) (*v[2] == *#o) ? t o N :
+#define F(o) *v[2] == *#o ? t o N :
 main(c, v, t)char**v; {
     for(t = N; c-=2; v++)
         t = F(+)
