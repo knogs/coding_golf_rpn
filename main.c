@@ -1,11 +1,11 @@
-#define F(o) *v[1] == *#o ? t o atoi(*v) :
-main(c, v, t)char**v; {
+#define F(o) *v[1] == *#o ? c o atoi(*v) :
+main(c, v)char**v; {
     for(; *v; v+=2)
-        t = F(+)
+        c = F(+)
         F(-)
         F(*)
         F(/)
         atoi(v[1]);
 
-    printf("%d", t);
+    printf("%d", c);
 }
