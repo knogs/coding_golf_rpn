@@ -1,13 +1,12 @@
-s;
-#define f atoi(*(++a))
-#define b(o) (*a[2] == *#o) ? s o f :
-main(c, a)char**a; {
-    for(s = f; c-=2; a++)
-        s = b(+)
-        b(-)
-        b(*)
-        b(/)
+#define N atoi(*(++v))
+#define F(o) (*v[2] == *#o) ? t o N :
+main(c, v, t)char**v; {
+    for(t = N; c-=2; v++)
+        t = F(+)
+        F(-)
+        F(*)
+        F(/)
         0;
 
-    printf("%d", s);
+    printf("%d", t);
 }
